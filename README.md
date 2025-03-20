@@ -24,6 +24,9 @@
  - 4- Comando para ver os dispositivos conectados: `.\adb devices`
  - 5- Comando para escolher a porta: `.\adb tcpip 5555`
  - 6- Comando para conectar: `.\adb connect ip_celular:5555`
+ 
+ **Download ADB:** [platform-tools-latest-windows.zip](https://github.com/user-attachments/files/19373116/platform-tools-latest-windows.zip)
+
 
  ## Debugg
   - https://developer.android.com/studio/inspect/database
