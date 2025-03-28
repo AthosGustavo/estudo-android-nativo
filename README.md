@@ -61,8 +61,7 @@
   - Alguns exemplos de layouts incluem LinearLayout, RelativeLayout, FrameLayout, ConstraintLayout,
 
  ### Método setContentView
-  - Método da classe Activity que define o que será exibido na interface para o usuário de UI.
-  - O método aceita em seu parâmetro um argumento que seja uma subclasse de View.
+  - Método que define qual layout será atribuido a classe..
 
  ### R
   - Objeto que da acesso a arquivos de layout, strings, imagens, cores, estilos e outros tipos de recursos.
