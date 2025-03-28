@@ -60,6 +60,11 @@
   - Layouts são contêineres especiais que organizam outros elementos de interface do usuário (como botões, campos de texto, etc.) em uma determinada disposição na tela.
   - Alguns exemplos de layouts incluem LinearLayout, RelativeLayout, FrameLayout, ConstraintLayout,
 
+ ### Inflar layout
+  - É o processo de transformar um XML em um hierarquia de objetos acessáveis
+  - Em uma Activity que possui o método setContentView no onCreate, não é necessário inflar o layout para acessar as views,pois este método define o layout que será atribuido a classe.
+ 
+ 
  ### Método setContentView
   - Método que define qual layout será atribuido a classe..
 
