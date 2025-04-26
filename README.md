@@ -613,7 +613,29 @@ public class MainActivity extends Activity {
 
   ## Room
   - `Implementando Romm`: https://developer.android.com/training/data-storage/room?hl=pt-br#java
+  -  https://developer.android.com/training/data-storage/room/relationships?hl=pt-br
   - `Métodos do DAO`: https://developer.android.com/training/data-storage/room/accessing-data?hl=pt-br
+
+  ### Limitações do Room
+  - Diferente da biblioteca Hibernate, o Room não permite o acesso dos atributos em objetos aninhados sem uma terceira classe para configurar o relacionamento ou sem um método complexo na camada de DAO ou sem usar a estratégia de TypeConvert.
+
+  **EXEMPLO**
+  ```java
+ public class Usuario{
+  private Integer id;
+  private Integer nome;
+  private Endereco endereco;
+ }
+
+public class Endereco{
+ private Integer id;
+ private Integer rua;
+ private Integer numero
+}
+  ```
+
+ - No Room não seria possível ter acesso aos atributos da propriedade endereço apenas seguindo o exemplo de uma configuração básica no Hibernate e com duas classes
+  
 
   ## Conversão de tipos
   - Em algunas situações o SQLite não possui uma correspondência para um tipo do java e nesse caso deve haver uma conversão.
