@@ -202,6 +202,9 @@ public class MainActivity extends Activity {
  <summary>Componentes</summary>
 
  # Componentes
+
+  ### Estilização de componentes
+  - *https://developer.android.com/develop/ui/views/components/button?hl=pt-br*
   
    <details>
    <summary>Alert Dialog</summary>
